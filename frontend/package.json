@@ -1,0 +1,32 @@
+{
+  "name": "stockify-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5000 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 5000 -H 0.0.0.0",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stacks/auth": "^6.15.0",
+    "@stacks/common": "^6.15.0",
+    "@stacks/connect": "^7.8.2",
+    "@stacks/network": "^6.15.0",
+    "@stacks/transactions": "^6.15.0",
+    "ethers": "^6.15.0",
+    "next": "^15.5.5",
+    "openai": "^4.52.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5"
+  }
+}
